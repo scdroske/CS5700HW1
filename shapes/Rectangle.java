@@ -4,28 +4,20 @@ package shapes;
  * Rectangle
  */
 @SuppressWarnings("WeakerAccess")
-public class Rectangle implements Polygon {
+public class Rectangle extends Polygon {
 
     @Override
-    public void getPoint(){
-
-    }
-
-    @Override
-    public void getLength(){
-
-    }
-
-    @Override
-    public void getHeight(){
-
+    public void getInput(){
+        double x;
+        double y;
+        set x;
+        set y;
     }
 
     @Override
     public void getArea(){
 
     }
-
 
 
 

@@ -1,4 +1,4 @@
-package examples.shapes;
+package shapes;
 
 /**
  *

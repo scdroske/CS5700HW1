@@ -159,7 +159,7 @@ public class EllipseTest {
 
     @Test
     public void testMove() throws Exception {
-        Ellipse myEllipse = new Circle(1, 2, 5, 6);
+        Ellipse myEllipse = new Ellipse(1, 2, 5, 6);
         assertEquals(1, myEllipse.getCenter().getX(), 0);
         assertEquals(2, myEllipse.getCenter().getY(), 0);
         assertEquals(5, myEllipse.getMinRadius(), 0);
@@ -238,7 +238,7 @@ public class EllipseTest {
 
     @Test
     public void testScale() throws ShapeException {
-        Ellipse myEllipse = new Circle(1, 2, 5, 6);
+        Ellipse myEllipse = new Ellipse(1, 2, 5, 6);
         assertEquals(1, myEllipse.getCenter().getX(), 0);
         assertEquals(2, myEllipse.getCenter().getY(), 0);
         assertEquals(5, myEllipse.getMinRadius(), 0);

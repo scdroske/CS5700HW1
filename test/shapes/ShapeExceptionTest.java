@@ -13,5 +13,6 @@ public class ShapeExceptionTest {
 
         exception = new ShapeException("test message");
         assertEquals("test message", exception.getMessage());
+
     }
 }

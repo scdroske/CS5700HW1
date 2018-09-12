@@ -3,7 +3,7 @@ package shapes
 public interface Shape
 {
    public void getInput();
-   public void getArea();
-
+   public double getArea();
+   public void move();
 }
 

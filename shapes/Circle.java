@@ -7,17 +7,19 @@ package shapes;
  *
  */
 @SuppressWarnings("WeakerAccess")
-public class Circle extends Ellipse{
+public class Circle extends Ellipse {
 
     /**
-     *
-     * @return      getMinRadius() -- this will go and use the getMinRadius() which will then get a minRadius to be used as the radius
+     * @return getMinRadius() -- this will go and use the getMinRadius() which will then get a minRadius to be used as the radius
      */
-    public double getRadius() { return getMinRadius(); }
+    public double getRadius() {
+        return getMinRadius();
+    }
+
     protected double radius;
-    radius = minRadius;
+    radius =minRadius;
 
-
+}
     /**
      * @param center            this will create the center of the circle
      * @param minRadius         this redefines the minRadius to be used as the min and max radius so they are always equal

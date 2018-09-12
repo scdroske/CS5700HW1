@@ -39,7 +39,8 @@ public class Ellipse {
      * minRadius and maxRadius are otherwise known as the semimajor-axis and major-axis
      */
     public Ellipse(Point center, double minRadius, double maxRadius) throws ShapeException {
-        Validator.validatePositiveDouble(radius, "Invalid radius");
+        Validator.validatePositiveDouble(minRadius, "Invalid minradius");
+        Validator.validatePositiveDouble(maxRadius, "Invalid maxradius");
         if (center==null)
             throw new ShapeException("Invalid center point");
 
